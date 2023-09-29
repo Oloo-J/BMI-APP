@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+span{
+    color: red;
+}
+h2{
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    color: #d43636;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+.wrapper{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: rgb(35, 60, 70) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
